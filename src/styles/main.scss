@@ -1,1 +1,19 @@
 @use 'variables';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+  background-color: variables.$white;
+  min-height: 100vh;
+  max-width: 1200px;
+//   padding: 0 2rem;
+}
+
+.container {
+    min-height: 130vh;
+}
